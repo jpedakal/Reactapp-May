@@ -9,8 +9,9 @@ const Dashboard = () => {
                 </div>
                 <ul className="nav navbar-nav navbar-right">
                     <li><a href="/cart"><span className="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
-                    <li><a href="/register"><span className="glyphicon glyphicon-user"></span> Register</a></li>
-                    <li><a href="/login"><span className="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a href="/register"><span className="glyphicon glyphicon-user"></span> username</a></li>
+                    <li><a href="/login"><span className="glyphicon glyphicon-log-in"></span> Profile</a></li>
+                    <li><a href="">Logout</a> </li>
                 </ul>
             </div>
         </nav>
