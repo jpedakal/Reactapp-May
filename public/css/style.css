@@ -1,0 +1,11 @@
+.navbar-custom {
+    background-color: teal;
+}
+
+.navbar a{
+    color: white;
+}
+
+  label{
+      width: 4cm;
+  }
