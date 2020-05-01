@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './components/Dashboard';
+import Home from './components/Payment';
 
 ReactDOM.render(
  <Home/>,
