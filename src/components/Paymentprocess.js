@@ -5,7 +5,7 @@ const paymentProcess = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md-6"><img src="/images/visa.jpg"></img></div>
-                <img src="/images/icici.jpg" alt="Bank name"></img>
+                <img id="bankicon" src="/images/icici.jpg" alt="Bank name"></img>
             </div>
             <hr />
             <p>Please Enter your OTP in the space provided below, to confirm your identity for this purchase.

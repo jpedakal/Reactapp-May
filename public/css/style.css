@@ -50,7 +50,7 @@ li {
     font-family: sans-serif
 }
 
-img {
+#bankicon {
     height: 2cm;
     width: 4cm;
 }
@@ -73,4 +73,10 @@ th{
 #total{
     font-size: medium;
    padding-right: 1cm;
+}
+
+img{
+    margin-top: 1cm;
+    height: 10cm;
+    width: 2cm;
 }
