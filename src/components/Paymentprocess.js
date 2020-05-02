@@ -16,8 +16,8 @@ const paymentProcess = () => {
                     <li>Name:| P JAYAKRISHNA</li>
                 </ul>
                 <div className="form-group">
-                 <label>OTP</label>
-                 <input type="text" size="6"></input>
+                    <label>OTP</label>
+                    <input type="text" size="6"></input>
                 </div>
                 <button type="button" className="btn btn-success btn-sm">Pay</button>
             </div>

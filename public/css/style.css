@@ -9,3 +9,12 @@
   label{
       width: 4cm;
   }
+
+  ul{
+      padding-left: 5cm;
+  }
+
+  li{
+      width: 5cm;
+      color: blueviolet;
+  }
