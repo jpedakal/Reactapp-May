@@ -18,3 +18,33 @@
       width: 5cm;
       color: blueviolet;
   }
+
+  #field{
+      text-align: right;
+      color: blue;
+  }
+
+  #value{
+      text-align: left;
+      color: blue;
+  }
+
+  .button{
+      position: center;
+      text-align: center;
+      padding-top: 1cm;
+      margin-left: 2cm;
+  }
+
+  #headers{
+      font-family: sans-serif
+  }
+
+img{
+    height: 2cm;
+    width: 4cm;
+}
+
+.btn-toolbar{
+    padding-left: 13cm;
+}
