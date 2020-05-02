@@ -8,7 +8,7 @@ const paymentProcess = () => {
                 <img src="/images/icici.jpg" alt="Bank name"></img>
             </div>
             <hr />
-            <p>Please Enter your OTP in the space provided below, to confirm your identity for this purchase
+            <p>Please Enter your OTP in the space provided below, to confirm your identity for this purchase.
             This information will not be shared with the merchant
             </p>
             <div className="row">
