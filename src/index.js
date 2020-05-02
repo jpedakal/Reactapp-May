@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './components/cart';
+import Home from './components/myOrders';
 
 ReactDOM.render(
  <Home/>,
