@@ -4,8 +4,8 @@ const paymentProcess = () => {
     return (
         <div className="container">
             <div className="row">
-                <div id="headers" className="col-md-6"><h3><b>Verified by VISA</b></h3></div>
-                <img src="/images/icici.jpg"></img>
+                <div className="col-md-6"><img src="/images/visa.jpg"></img></div>
+                <img src="/images/icici.jpg" alt="Bank name"></img>
             </div>
             <hr />
             <p>Please Enter your OTP in the space provided below, to confirm your identity for this purchase
@@ -16,12 +16,12 @@ const paymentProcess = () => {
                 <div className="col-md-6" id="value">7382215949</div>
             </div>
             <div className="row">
-                <div id="field" className="col-md-6">Merchant Name:|</div>
-                <div className="col-md-6" id="value">Reliance JIO</div>
+                <div id="grey" className="col-md-6">Merchant Name:|</div>
+                <div className="col-md-6" id="grey-val">Reliance JIO</div>
             </div>
             <div className="row">
-                <div id="field" className="col-md-6">Date:|</div>
-                <div className="col-md-6" id="value">May 02,2020</div>
+                <div id="grey" className="col-md-6">Date:|</div>
+                <div className="col-md-6" id="grey-val">May 02,2020</div>
             </div>
             <div className="row">
                 <div id="field" className="col-md-6">Total Charge:|</div>
@@ -32,12 +32,8 @@ const paymentProcess = () => {
                 <div className="col-md-6" id="value">XXXX XXXX XXXX 9987</div>
             </div>
             <div className="row">
-                <div id="field" className="col-md-6">Total Charge:|</div>
-                <div className="col-md-6" id="value">Rs 100.00</div>
-            </div>
-            <div className="row">
                 <div id="field" className="col-md-6">Personal Message:|</div>
-                <div className="col-md-6" id="value">3D Secure Authentication</div>
+                <div className="col-md-6" id="secure">3D Secure Authentication</div>
             </div>
             <div className="row">
                 <div id="field" className="col-md-6">Name:|</div>

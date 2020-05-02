@@ -2,49 +2,63 @@
     background-color: teal;
 }
 
-.navbar a{
+.navbar a {
     color: white;
 }
 
-  label{
-      width: 4cm;
-  }
+label {
+    width: 4cm;
+}
 
-  ul{
-      padding-left: 5cm;
-  }
+ul {
+    padding-left: 5cm;
+}
 
-  li{
-      width: 5cm;
-      color: blueviolet;
-  }
+li {
+    width: 5cm;
+    color: blueviolet;
+}
 
-  #field{
-      text-align: right;
-      color: blue;
-  }
+#field {
+    text-align: right;
+    color: rgb(3, 3, 129);
+}
 
-  #value{
-      text-align: left;
-      color: blue;
-  }
+#value {
+    text-align: left;
+    color: rgb(3, 3, 129);
+}
 
-  .button{
-      position: center;
-      text-align: center;
-      padding-top: 1cm;
-      margin-left: 2cm;
-  }
+#grey {
+    text-align: right;
+    color: olivedrab;
+}
 
-  #headers{
-      font-family: sans-serif
-  }
+#grey-val {
+    text-align: left;
+    color: olivedrab;
+}
 
-img{
+.button {
+    position: center;
+    text-align: center;
+    padding-top: 1cm;
+    margin-left: 2cm;
+}
+
+#headers {
+    font-family: sans-serif
+}
+
+img {
     height: 2cm;
     width: 4cm;
 }
 
-.btn-toolbar{
+.btn-toolbar {
     padding-left: 13cm;
+}
+
+#secure {
+    color: red;
 }
