@@ -3,7 +3,7 @@ import React from 'react';
 const Cart = () => {
     return (
         <div className="container">
-            <h3><b>Items in cart</b></h3><br/>
+            <h3><b>Items in cart</b></h3><br />
             <table className="table table-striped">
                 <thead>
                     <tr>
@@ -50,6 +50,13 @@ const Cart = () => {
                     </tr>
                 </tbody>
             </table>
+            <hr />
+            <div className="row">
+                <div id="total" className="col-md-7"><b>Sub Total</b></div>
+                <div id="total-val" className="col-md-5"><b>10000</b></div>
+            </div>
+            <hr />
+            <button className="btn btn-success btn-block" >Proceed To Pay</button>
         </div>
 
     )

@@ -66,3 +66,11 @@ img {
 th{
     margin-left: 1cm;
 }
+#total{
+    font-size: medium;
+    text-align: right;
+}
+#total{
+    font-size: medium;
+   padding-right: 1cm;
+}
