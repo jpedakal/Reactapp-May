@@ -80,3 +80,10 @@ img{
     height: 10cm;
     width: 2cm;
 }
+#pro-val{
+    font-weight: bold;
+}
+
+#pro-btn{
+    margin-right: 1.5cm;
+}
