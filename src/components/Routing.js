@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, BrowserRouter, Link } from 'react-router-dom';
+import Home from './Home';
 import dashboard from './Dashboard';
 import register from './Register';
 import login from './Login';
@@ -17,7 +18,7 @@ const Routing = () => {
                 <nav className="navbar navbar-custom">
                     <div className="container-fluid">
                         <div className="navbar-header">
-                            <div className="title">Welcome To Carrefour</div>
+                            <Link to="/"><h3>Welcome To Carrefour</h3></Link>
                         </div>
                         <ul className="nav navbar-nav navbar-right">
                             <li><Link to="/cart"><span className="glyphicon glyphicon-shopping-cart">Cart</span></Link></li>
@@ -26,6 +27,7 @@ const Routing = () => {
                         </ul>
                     </div>
                 </nav>
+                <Route exact path="/" component={Home}></Route>
                 <Route path="/register" component={register}></Route>
                 <Route path="/login" component={login}></Route>
                 <Route path="dashboard" component={dashboard}></Route>
