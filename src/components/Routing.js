@@ -14,7 +14,14 @@ import productData from './productData';
 const Routing = () => {
     return (
         <BrowserRouter>
-        <Route to="/" component={Home}></Route>
+            <Route to="/" component={Home}></Route>
+            <Route to="/register" component={register}></Route>
+            <Route to="/login" component={login}></Route>
+            <Route to="/cart" component={cart}></Route>
+            <Route to="/myOrders" component={myOrders}></Route>
+            <Route to="/payment" component={payment}></Route>
+            <Route to="/paymentProcess" component={paymentProcess}></Route>
+            <Route to="/productData" component={productData}></Route>
         </BrowserRouter>
     )
 }
