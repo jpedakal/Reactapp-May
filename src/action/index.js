@@ -6,6 +6,7 @@ export function registerUser() {
     }).then(data => res.json())
 
     return {
+        type: "POST_REGISTER",
         payload: output
     }
 }
