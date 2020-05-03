@@ -25,7 +25,7 @@ const productData = () => {
         </div><br /><br />
         <div className="row">
           <button type="button" id="pro-btn" className="btn btn-warning">ADD To CART</button>
-          <button type="button" id="pro-btn" className="btn btn-danger">BUY NOW</button>
+          <button type="button" id="pro-btn" className="btn btn-success">BUY NOW</button>
          </div>
       </div>
     </div>
