@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './components/productData';
+import Routing from './components/Routing';
 
 ReactDOM.render(
- <Home/>,
+ <Routing/>,
   document.getElementById('root')
 );
 
