@@ -1,6 +1,11 @@
 import React from 'react';
 
 const Register = () => {
+
+    constructor(){
+        
+    }
+
     return (
         <div className="container">
             <h3>Please Register your Details</h3>
