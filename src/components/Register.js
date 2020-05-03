@@ -2,9 +2,6 @@ import React from 'react';
 
 const Register = () => {
 
-    constructor(){
-        
-    }
 
     return (
         <div className="container">
