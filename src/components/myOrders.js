@@ -3,7 +3,7 @@ import React from 'react';
 const myOrders = () => {
     return (
         <div className="container">
-            <h3><b>My Orders</b></h3><br/>
+            <h3><b>My Orders</b></h3><br />
             <table className="table table-striped">
                 <thead>
                     <tr>
@@ -37,4 +37,4 @@ const myOrders = () => {
 }
 
 export default myOrders
-;
+    ;
