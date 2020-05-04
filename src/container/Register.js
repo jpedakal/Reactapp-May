@@ -13,6 +13,8 @@ class Register extends Component {
       const data= {
           name, email, mobile, password, confirmPassword
       }
+
+      console.log('data'+data)
   }
     render() {
         return (
@@ -38,7 +40,7 @@ class Register extends Component {
                     <label>Confirm Password:</label>
                     <input type="password" className="form-control" ref={(input)=>this.getCnfpwd=input}></input>
                 </div>
-                <button type="button" className="btn btn-success" onSubmit={this.handleSubmit}>Register</button>
+                <button type="submit" className="btn btn-success" onSubmit={this.handleSubmit}>Register</button>
             </div>
         )
 
