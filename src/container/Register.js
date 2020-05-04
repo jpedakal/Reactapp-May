@@ -14,7 +14,7 @@ class Register extends Component {
             name, email, mobile, password, confirmPassword
         }
 
-        console.log('data' + data)
+        console.log('data' + JSON.stringify(data))
     }
     render() {
         return (
