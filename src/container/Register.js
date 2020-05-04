@@ -45,7 +45,6 @@ class Register extends Component {
                 </form>
             </div>
         )
-
     }
 }
 
