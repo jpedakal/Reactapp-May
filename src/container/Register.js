@@ -38,7 +38,7 @@ class Register extends Component {
                     <label>Confirm Password:</label>
                     <input type="password" className="form-control" ref={(input)=>this.getCnfpwd=input}></input>
                 </div>
-                <button type="button" className="btn btn-success">Register</button>
+                <button type="button" className="btn btn-success" onSubmit={this.handleSubmit}>Register</button>
             </div>
         )
 
