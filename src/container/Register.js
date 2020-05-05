@@ -18,7 +18,7 @@ class Register extends Component {
         this.props.dispatch({
             type: 'POST_REGISTER',
             data
-        })
+        });
         console.log('data' + JSON.stringify(data))
     }
     render() {
