@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Register extends Component {
 
-    _handleSubmit = (e) => {
+    handleSubmit = (e) => {
         e.preventDefault();
         const name = this.getName.value;
         const email = this.getEmail.value;
