@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 
 class Register extends Component {
 
@@ -15,6 +15,10 @@ class Register extends Component {
             name, email, mobile, password, confirmPassword
         }
 
+        this.props.dispatch({
+            type: 'POST_REGISTER',
+            data
+        })
         console.log('data' + JSON.stringify(data))
     }
     render() {
