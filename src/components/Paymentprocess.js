@@ -4,7 +4,7 @@ const paymentProcess = () => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-md-6"><img src="/images/visa.jpg"></img></div>
+                <div className="col-md-6"><img src="/images/visa.jpg" alt="visa card"></img></div>
                 <img id="bankicon" src="/images/icici.jpg" alt="Bank name"></img>
             </div>
             <hr />
