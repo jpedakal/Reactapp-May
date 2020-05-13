@@ -5,8 +5,8 @@ import registerUser from '../action/index';
 class Register extends Component {
 
     handleSubmit = (e) => {
+        e.preventDefault();
         
-
         let data;
         const name = this.getName.value;
         const email = this.getEmail.value;
@@ -19,7 +19,7 @@ class Register extends Component {
         }
         
        registerUser(data)
-       
+       e.target.reset();
     }
     render() {
         return (
