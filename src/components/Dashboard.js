@@ -11,7 +11,7 @@ const Dashboard = () => {
                     <li><a href="/cart"><span className="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
                     <li><a href="/register"><span className="glyphicon glyphicon-user"></span> username</a></li>
                     <li><a href="/login"><span className="glyphicon glyphicon-log-in"></span> Profile</a></li>
-                    <li><a href="">Logout</a> </li>
+                    <li><a href="/logout">Logout</a> </li>
                 </ul>
             </div>
         </nav>
