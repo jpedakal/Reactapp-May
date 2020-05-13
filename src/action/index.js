@@ -7,12 +7,7 @@ function registerUser(data) {
         headers: {
             'Content-Type':'application/json'
         }
-    }).then(res => res.json())
-
-    return {
-        type: "POST_REGISTER",
-        payload: output
-    }
+    }).then(this.props.history.push('/login'))
 }
 
 function loginUser(data){
