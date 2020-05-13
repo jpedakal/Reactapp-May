@@ -1,6 +1,6 @@
 const URL = "http://localhost:8000";
 
-export default function registerUser(data) {
+function registerUser(data) {
     const output = fetch(`${URL}/api/user/register`, {
         method: "POST",
         body: JSON.stringify(data),
@@ -15,7 +15,7 @@ export default function registerUser(data) {
     }
 }
 
-export default function loginUser(data){
+function loginUser(data){
   const output= fetch(`${URL})/api/user/login`,{
       method: "POST",
       body: JSON.stringify(data),
@@ -29,3 +29,6 @@ export default function loginUser(data){
       payload: output
   }
 }
+
+exports.registerUser=registerUser;
+exports.loginUser=loginUser;
