@@ -9,10 +9,23 @@ export default function registerUser(data) {
         }
     }).then(res => res.json())
 
-    console.log('output' + output);
     return {
         type: "POST_REGISTER",
         payload: output
     }
 }
 
+export default function loginUser(data){
+  const output= fetch(`${URL})/api/user/login`,{
+      method: "POST",
+      body: JSON.stringify(data),
+      headers: {
+          'Content-Type': 'application/json'
+      }
+  }).then(res=> res.json())
+
+  return {
+      type: "POST_LOGIN",
+      payload: output
+  }
+}
