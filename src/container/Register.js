@@ -6,16 +6,18 @@ class Register extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault();
+
+        let data;
         const name = this.getName.value;
         const email = this.getEmail.value;
         const mobile = this.getMobile.value;
         const password = this.getPwd.value;
         const confirmPassword = this.getCnfpwd.value;
-
-        const data = {
-            name, email, mobile, password, confirmPassword
+       
+        if(password === confirmPassword){
+           data= { name, email, mobile, password}
         }
-
+        
        registerUser(data)
        
     }
