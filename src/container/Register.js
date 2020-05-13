@@ -19,7 +19,7 @@ class Register extends Component {
         }
         
        registerUser(data)
-       e.target.reset();
+       
     }
     render() {
         return (
