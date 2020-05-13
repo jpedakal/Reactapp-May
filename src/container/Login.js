@@ -1,4 +1,5 @@
 import React from 'react';
+import LoginUser from '.././action/index';
 
 const Login = () => {
 
@@ -9,7 +10,7 @@ const Login = () => {
         const password= this.getPassword.value;
 
         const data= {email, password};
-        
+        LoginUser(data);
     }
 
     return (
