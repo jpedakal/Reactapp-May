@@ -1,25 +1,32 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import registerUser from '../action/index';
+import { registerUser } from '../action/index';
 
 class Register extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault();
-        
+
         let data;
         const name = this.getName.value;
         const email = this.getEmail.value;
         const mobile = this.getMobile.value;
         const password = this.getPwd.value;
         const confirmPassword = this.getCnfpwd.value;
-       
-        if(password === confirmPassword){
-           data= { name, email, mobile, password}
+
+        if (password === confirmPassword) {
+            data = { name, email, mobile, password }
         }
-        
-       registerUser(data)
-       
+
+        registerUser(data)
+            .then(response => {
+                if (response.payload.success) {
+                    setTimeout(() => {
+                        this.props.history.push('/login')
+                    }, 3000)
+                }
+            })
+
     }
     render() {
         return (
@@ -28,7 +35,7 @@ class Register extends Component {
                 <form onSubmit={this.handleSubmit} >
                     <div className="form-group">
                         <label>Name:</label>
-                        <input type="text"  className="form-control" ref={(input) => this.getName = input} required></input>
+                        <input type="text" className="form-control" ref={(input) => this.getName = input} required></input>
                     </div>
                     <div className="form-group">
                         <label>Email:</label>
