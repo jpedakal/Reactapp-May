@@ -18,7 +18,7 @@ class Register extends Component {
             data = { name, email, mobile, password }
         }
 
-        registerUser(data)
+      this.props.dispatch(registerUser(data))  
             .then(response => {
                 if (response.payload.success) {
                     setTimeout(() => {
